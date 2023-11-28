@@ -18,3 +18,37 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+.container-c {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.top-c {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.top-c > h1 {
+    color: var(--Primary, #3D3D3F);
+font-family: Rubik;
+font-size: 72px;
+font-weight: 500;
+}
+.top-c > p {
+    color: var(--Primary, #3D3D3F);
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+}
+.top-c > button {
+    width: 219px;
+height: 53px;
+color: #FFF;
+font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+}
