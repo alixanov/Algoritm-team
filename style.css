@@ -31,6 +31,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 15px;
 }
 .top-c > h1 {
     color: var(--Primary, #3D3D3F);
@@ -47,8 +48,13 @@ font-weight: 400;
 .top-c > button {
     width: 219px;
 height: 53px;
+border-radius: 5px;
+opacity: 0.85;
+background: var(--Gd-color, linear-gradient(3deg, #F35F2F -13.68%, rgba(243, 95, 47, 0.75) 121.16%));
 color: #FFF;
 font-family: Rubik;
 font-size: 20px;
 font-weight: 400;
+border: none;
+outline: none;
 }
