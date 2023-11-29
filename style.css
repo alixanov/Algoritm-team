@@ -1,3 +1,7 @@
+@font-face {
+    src: url(./Fonts/Rubik-Italic-VariableFont_wght.ttf);
+    font-family: Rubik;
+}
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +27,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    padding: 4% 9% 2% 9%;
+    gap: 5px;
 }
 .top-c {
     width: 45%;
@@ -31,7 +36,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
 }
 .left-c > h1 {
     color: var(--Primary, #3D3D3F);
